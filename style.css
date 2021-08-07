@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+header{
+background-color: black;
+color: white;
+height: 5.2521008403361vh;
+width: 100%;
+}
+.p1{
+display: flex;
+justify-content: space-between;
+padding: 0.521vw 1.4705882352941vh;
+font-family: 'Roboto', sans-serif;
+font-size: 1.9957983193277vh;
+}
+.p1 a{
+    color: blue;
+    text-decoration: none;
+    }
+    h1{
+    text-align: center;
+    }
+    .detective{
+        display: flex;
+        justify-content:space-between;        
+    }
+.img1{
+display: flex;
+justify-content:space-between;
+}
+#a1{
+    text-decoration: none;
+    color: black;
+}
+#a2{
+    text-decoration: none;
+    color: black;
+}
+img{  
+    height: 43.172268907563vh;
+    width: 14.167vw;
+    }    
+footer{
+    background-color: black;
+    color: white;
+    height: 5.2521008403361vh;
+    width: 100%;
+}
+#detective{
+    position: absolute;
+bottom: 0px;
+left: 0px;
+}
+.BodyDetective{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+}
+.darkTheme{
+background-color: #121212;
+color: white;
+}
+.darkTheme header{
+background-color: #1f1f1f;
+}
+.darkTheme footer{
+    background-color: #1f1f1f;
+}
+.darkTheme  .dark{
+color: orange;
+}
+.darkTheme h1{
+color: orange;
+}
